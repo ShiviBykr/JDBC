@@ -5,7 +5,7 @@ public class DB_Connect {
 	public static void main(String[] args) throws Exception{
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
-		Class.forName("com.mysql.jdbc.Driver");
+		Class.forName("com.mysql.cj.jdbc.Driver");
 		System.out.println("Connecting to Data Base..");
 		System.out.println("Enter the name of database");
 		String database=sc.nextLine();
